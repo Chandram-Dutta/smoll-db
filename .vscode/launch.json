@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:smoll-db}",
+            "name": "Debug SmollDB",
+            "program": "${workspaceFolder:smoll-db}/.build/debug/SmollDB",
+            "preLaunchTask": "swift: Build Debug SmollDB"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:smoll-db}",
+            "name": "Release SmollDB",
+            "program": "${workspaceFolder:smoll-db}/.build/release/SmollDB",
+            "preLaunchTask": "swift: Build Release SmollDB"
+        }
+    ]
+}
